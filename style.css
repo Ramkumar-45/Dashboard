@@ -1,0 +1,85 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: hsl(230, 17%, 14%);
+    color: hsl(0, 0%, 100%);
+}
+
+.title h3{
+    font-weight: 600;
+}
+.container .title p{
+    color: hsl(228, 34%, 66%);
+    font-weight: 600;
+}
+
+.card{
+    background-color: hsl(228, 28%, 20%);
+    border-radius: 10px;
+}
+.facebook, .twitter, .instagram, .youtube{
+    border-top-width: 6px;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+}
+
+.facebook{
+    border-top-color: hsl(208, 92%, 53%);
+}
+.twitter{
+    border-top-color: hsl(203, 89%, 53%);
+}
+.youtube{
+    border-top-color:hsl(348, 97%, 39%);
+}
+.instagram{
+    border-top-color: #ec8081;
+}
+
+.profile{
+    color: hsl(228, 34%, 66%);
+}
+.follow h1{
+    font-size: 60px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.follow p{
+    letter-spacing: 4px;
+    color: hsl(228, 34%, 66%);
+}
+
+
+.up, .down{
+    font-size: 13px;
+    font-weight: 500;
+}
+.up{
+    
+    color: hsl(163, 72%, 41%);
+}
+
+.down{
+    color: hsl(356, 69%, 56%);
+}
+
+
+
+.light-theme{
+    background-color: hsl(0, 0%, 100%);
+    color: #000000;
+}
+
+.light-theme .card{
+    background-color: hsl(227, 47%, 96%); 
+}
+
+
+@media screen and (max-width: 992px) {
+    .custom-control-input{
+      float: right;
+    }
+  }

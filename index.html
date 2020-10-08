@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+
+</head>
+
+<body>
+  <!-- Main Container -->
+  <div class="container">
+    <!-- Title row -->
+    <div class="row">
+      <div class="col-md-6 pt-5 d-flex justify-content-between">
+        <div class="title">
+          <h3>Social Media Dashboard</h3>
+          <p>Total Followers: 23,004</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 pt-5">
+        <div class="custom-control custom-switch d-flex justify-content-end">
+          <input type="checkbox" class="custom-control-input" id="customSwitch1">
+          <label class="custom-control-label" for="customSwitch1">Light Theme</label>
+        </div>
+      </div>
+    </div>
+    <!-- End of Title Row -->
+
+    <!-- Card rows -->
+    <div class="row mt-5">
+      <div class="col-md-3 mb-3">
+
+        <!-- First Card -->
+        <div class="card facebook">
+          <div class="card-body p-4 text-center">
+            <div class="image d-inline">
+              <img class="ml-2" src="./images/icon-facebook.svg">
+            </div>
+            <div class="profile d-inline">
+              <span>@nathanf</span>
+            </div>
+            <div class="follow mt-3">
+              <h1>1987</h1>
+              <p>FOLLOWERS</p>
+            </div>
+            <p class="d-inline">
+              <img class="ml-2 " src="./images/icon-up.svg">
+              <span class="up">12 Today</span>
+            </p>
+          </div>
+        </div>
+        <!-- End of First Card -->
+      </div>
+      <div class="col-md-3 mb-3">
+        <!-- Second Card -->
+        <div class="card twitter">
+          <div class="card-body p-4 text-center">
+            <div class="image d-inline">
+              <img class="ml-2" src="./images/icon-twitter.svg">
+            </div>
+            <div class="profile d-inline">
+              <span>@nathanf</span>
+            </div>
+            <div class="follow mt-3">
+              <h1>1044</h1>
+              <p>FOLLOWERS</p>
+            </div>
+            <p class="d-inline">
+              <img class="ml-2 " src="./images/icon-up.svg">
+              <span class="up">99 Today</span>
+            </p>
+          </div>
+        </div>
+        <!-- End of Second Card -->
+      </div>
+      <div class="col-md-3 mb-3">
+        <!-- Third Card -->
+        <div class="card instagram">
+          <div class="card-body p-4 text-center">
+            <div class="image d-inline">
+              <img class="ml-2" src="./images/icon-instagram.svg">
+            </div>
+            <div class="profile d-inline">
+              <span>@nathanf</span>
+            </div>
+            <div class="follow mt-3">
+              <h1>11k</h1>
+              <p>FOLLOWERS</p>
+            </div>
+            <p class="d-inline">
+              <img class="ml-2 " src="./images/icon-up.svg">
+              <span class="up">1099 Today</span>
+            </p>
+          </div>
+        </div>
+        <!-- End of Third Card -->
+      </div>
+      <div class="col-md-3 mb-3">
+        <!-- Fourth Card -->
+        <div class="card youtube">
+          <div class="card-body p-4 text-center">
+            <div class="image d-inline">
+              <img class="ml-2" src="./images/icon-youtube.svg">
+            </div>
+            <div class="profile d-inline">
+              <span>@nathanf</span>
+            </div>
+            <div class="follow mt-3">
+              <h1>8239</h1>
+              <p>FOLLOWERS</p>
+            </div>
+            <p class="d-inline">
+              <img class="ml-2 " src="./images/icon-down.svg">
+              <span class="down">144 Today</span>
+            </p>
+          </div>
+        </div>
+        <!-- End of Fourth Card -->
+      </div>
+    </div>
+
+    <!-- Second Title Row -->
+    <div class="row">
+      <div class="col-md-6 pt-5 d-flex justify-content-between">
+        <div class="title">
+          <h3>Overview - Today</h3>
+        </div>
+      </div>
+    </div>
+    <!--End of Second Title Row -->
+
+    <!-- Cards -->
+    <div class="row mt-4">
+      <div class="col-md-3 mb-3">
+
+        <!-- First Card -->
+        <div class="card">
+          <div class="card-body d-flex flex-column p-4 text-center">
+            <div class="views">
+              <p class="float-left">Page views</p>
+              <img class="ml-2 float-right" src="./images/icon-facebook.svg">
+            </div>
+            <div class="total">
+              <h4 class="float-left">87</h4>
+              <p class="d-inline float-right mt-2">
+                <img class="ml-2 " src="./images/icon-up.svg">
+                <span class="up">3%</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- End of First Card -->
+
+      </div>
+      <div class="col-md-3 mb-3">
+
+        <!-- Second Card -->
+        <div class="card">
+          <div class="card-body d-flex flex-column p-4 text-center">
+            <div class="views">
+              <p class="float-left">Page views</p>
+              <img class="ml-2 float-right" src="./images/icon-facebook.svg">
+            </div>
+            <div class="total">
+              <h4 class="float-left">52</h4>
+              <p class="d-inline float-right mt-2">
+                <img class="ml-2 " src="./images/icon-down.svg">
+                <span class="down">2%</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--End of Second Card -->
+
+      </div>
+      <div class="col-md-3 mb-3">
+
+        <!-- Third Card -->
+        <div class="card">
+          <div class="card-body d-flex flex-column p-4 text-center">
+            <div class="views">
+              <p class="float-left">Page views</p>
+              <img class="ml-2 float-right" src="./images/icon-instagram.svg">
+            </div>
+            <div class="total">
+              <h4 class="float-left">5462</h4>
+              <p class="d-inline float-right mt-2">
+                <img class="ml-2 " src="./images/icon-up.svg">
+                <span class="up">2257%</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--End of Third Card -->
+
+      </div>
+      <div class="col-md-3 mb-3">
+
+        <!-- Fourth Card -->
+        <div class="card">
+          <div class="card-body d-flex flex-column p-4 text-center">
+            <div class="views">
+              <p class="float-left">Page views</p>
+              <img class="ml-2 float-right" src="./images/icon-instagram.svg">
+            </div>
+            <div class="total">
+              <h4 class="float-left">52K</h4>
+              <p class="d-inline float-right mt-2">
+                <img class="ml-2 " src="./images/icon-up.svg">
+                <span class="up">1375%</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--End of Fourth Card -->
+
+      </div>
+    </div>
+    <!-- End of first Card row -->
+
+
+    <!-- Second Cards Row -->
+    <div class="row mt-4">
+      <div class="col-md-3 mb-3">
+
+        <!-- First Card -->
+        <div class="card">
+          <div class="card-body d-flex flex-column p-4 text-center">
+            <div class="views">
+              <p class="float-left">Page views</p>
+              <img class="ml-2 float-right" src="./images/icon-twitter.svg">
+            </div>
+            <div class="total">
+              <h4 class="float-left">117</h4>
+              <p class="d-inline float-right mt-2">
+                <img class="ml-2 " src="./images/icon-up.svg">
+                <span class="up">303%</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- End of First Card -->
+
+      </div>
+      <div class="col-md-3 mb-3">
+
+        <!-- Second Card -->
+        <div class="card">
+          <div class="card-body d-flex flex-column p-4 text-center">
+            <div class="views">
+              <p class="float-left">Page views</p>
+              <img class="ml-2 float-right" src="./images/icon-twitter.svg">
+            </div>
+            <div class="total">
+              <h4 class="float-left">507</h4>
+              <p class="d-inline float-right mt-2">
+                <img class="ml-2 " src="./images/icon-up.svg">
+                <span class="up">553%</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--End of Second Card -->
+
+      </div>
+      <div class="col-md-3 mb-3">
+
+        <!-- Third Card -->
+        <div class="card">
+          <div class="card-body d-flex flex-column p-4 text-center">
+            <div class="views">
+              <p class="float-left">Page views</p>
+              <img class="ml-2 float-right" src="./images/icon-youtube.svg">
+            </div>
+            <div class="total">
+              <h4 class="float-left">107</h4>
+              <p class="d-inline float-right mt-2">
+                <img class="ml-2 " src="./images/icon-down.svg">
+                <span class="down">19%</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--End of Third Card -->
+
+      </div>
+      <div class="col-md-3 mb-3">
+
+        <!-- Fourth Card -->
+        <div class="card">
+          <div class="card-body d-flex flex-column p-4 text-center">
+            <div class="views">
+              <p class="float-left">Page views</p>
+              <img class="ml-2 float-right" src="./images/icon-youtube.svg">
+            </div>
+            <div class="total">
+              <h4 class="float-left">1407</h4>
+              <p class="d-inline float-right mt-2">
+                <img class="ml-2 " src="./images/icon-down.svg">
+                <span class="down">12%</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--End of Fourth Card -->
+
+      </div>
+    </div>
+    <!-- End of Card -->
+  </div>
+  <!-- End of Main Container -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>
